@@ -1,0 +1,55 @@
+<%- include("partials/header") -%>
+<div class="container-fluid">
+  <img src="/images/contact/contactus.jpg" class="w-100 h-auto" />
+</div>
+
+<section id="contact">
+  <div class="container div-contact border my-3 p-3">
+
+    <!-- Contact Details -->
+
+    <!-- Form -->
+
+    <h3 class="desc-title" style="text-align:center;">Send us an inquiry!</h3>
+    <p class="contents">
+      Great water fun and all-year-round swimming activity awaits you at the Cambride Resort. Please feel free to contact or visit us.
+    </p>
+    <form class="form-contactus">
+      <!-- First and Last Name -->
+      <div class="row mb-2">
+        <div class="col-sm-12 col-md-6">
+          <label for="formFirstName" class="form-label">First Name <span style="color: #ff0000;">*</span></label>
+          <input id="formFirstName" type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <label for="formLastName" class="form-label">Last Name <span style="color: #ff0000;">*</span></label>
+          <input id="formLastName" type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+      <!-- Email and Phone -->
+      <div class="row mb-2">
+        <div class="col-sm-12 col-md-6">
+          <label for="formEmail" class="form-label">Email</label>
+          <input id="formEmail" type="text" class="form-control" placeholder="Email">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <label for="formPhone" class="form-label">Phone <span style="color: #ff0000;">*</span></label>
+          <input id="formPhone" type="text" class="form-control" placeholder="Phone">
+        </div>
+      </div>
+      <div class="col-auto mb-2">
+        <label for="formTypeofEvent" class="form-label">Type of event <span style="color: #ff0000;">*</span></label>
+        <input id="formTypeofEvent" type="text" class="form-control" placeholder="Type of Event">
+      </div>
+      <div class="col-auto mb-2">
+        <label for="formMessage" class="form-label">Message <span style="color: #ff0000;">*</span></label>
+        <textarea class="form-control" id="formMessage" rows="3"></textarea>
+      </div>
+      <div class="d-grid col-6 mx-auto mb-2">
+        <button class="btn btn-light book-now" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+</section>
+<%- include("partials/footer") -%>
